@@ -26,6 +26,46 @@
 		<![endif]-->
 	</head>
 	<body>
+		<style>
+				.whatsapp{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.whatsapp-float{
+	margin-top:16px;
+}
+
+
+.facebook{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:110px;
+	right:40px;
+	background-color:rgb(8, 46, 82);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.facebook-float{
+	margin-top:16px;
+}
+		</style>
 		<!-- tnav -->
 		<div class="tnav">
 			<div class="container">
@@ -40,18 +80,20 @@
 					<a href="tel:+0201559665565">
 						<li><i class="fa fa-phone"></i>  01559665565</a></li>
 					</a>
-					<a href="https://api.whatsapp.com/send?phone=0201559665565&text=احتاج خدمة صيانة">
-						<li style="background-color: green;"><i class="fa fa-whatsapp"></i> تواصل عن طريق واتساب</a></li>
-					</a>
-
-					<a href="https://www.facebook.com/Group.European">
-						<li style="background-color: rgb(8, 46, 82);"><i class="fa fa-facebook"></i>  صفحتنا علي الفيسبوك</a></li>
-					</a>
+					
 					</ul>				
 				</ol>
 			</div>
 		</div><!-- /tnav -->
-	
+	<!-- float buttons social -->
+	<a href="https://api.whatsapp.com/send?phone=0201559665565&text=احتاج خدمة صيانة" class="whatsapp" target="_blank">
+		<i class="fa fa-whatsapp whatsapp-float"></i>
+		</a>
+
+		<a href="https://www.facebook.com/Group.European" class="facebook" target="_blank">
+			<i class="fa fa-facebook facebook-float"></i>
+			</a>
+	<!-- end float buttons social -->
 		<!-- jumbotron -->
 		<div class="jumbotron">
 			<div class="container">
